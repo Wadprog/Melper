@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Routes from './app/navigation'
-import MainList from './app/screens/MainList'
-import StoreItemDetailsScreen from './app/screens/StoreItemDetailsScreen'
+import Routes from './src/navigation'
+import MainList from './src/screens/MainList'
+import StoreItemDetailsScreen from './src/screens/StoreItemDetailsScreen'
 export default function App() {
   return <StoreItemDetailsScreen />
 }
